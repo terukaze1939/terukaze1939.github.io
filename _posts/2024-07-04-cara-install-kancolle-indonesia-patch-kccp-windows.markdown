@@ -27,7 +27,11 @@ Lalu tekan tombol `Save`. Jika tombol `Save` sudah ditekan maka akan muncul tamp
 
 Jika berhasil muncul seperti di atas, tinggal tekan tombol `Add a patcher`. Maka kalian akan disuruh untuk memasukan atau memilih file yang berekstensi `.mod.json`. Untuk kasus sekarang pilih file `ID-patch.mod.json` dari file yang telah kalian ekstrak yaitu file `master.zip` yang berisi folder `KanColle-Indonesia-Patch-KCCP`.
 
-Jika diperlukan tekan tombol `Pre-patch ALL assets` supaya mem-patch ulang assetnya.
+![](/{{'assets/imgs/step4.png'}})
+
+Jika file `ID-patch.mod.json` berhasil diimpor maka hasilnya akan menjadi seperti di atas.
+
+> Jika diperlukan tekan tombol `Pre-patch ALL assets` supaya mem-patch ulang assetnya.
 
 Setelah proses di atas kalian bisa membuka game KanCollenya lewat `KanColle Command Center` / `KC3` lewat ekstensi chrome, dan juga mengatur konfigurasi proxynya sesuaikan dengan gambar di atas.
 

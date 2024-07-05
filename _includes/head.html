@@ -4,27 +4,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
-    {% if page.layout == 'post' %}
-      {{ page.title }}
-    {% else %}
-      KanColle Indonesia Patch Project
-    {% endif %}
+    {{ page.title | default: 'KanColle Indonesia Patch Project'}}
   </title>
-  <meta name="title" content="KanColle Indonesia Patch" />
+  <meta name="title" content="{{ page.title | default: 'KanColle Indonesia Patch Project'}}" />
   <meta name="description" content="KanColle Indonesia Patch Project" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://terukaze1939.github.io/" />
-  <meta property="og:title" content="KanColle Indonesia Patch" />
-  <meta property="og:description" content="KanColle Indonesia Patch Project" />
+  <meta property="og:title" content="{{ page.title | default: 'KanColle Indonesia Patch Project'}}" />
+  <meta property="og:description" content="{{ page.title | default: 'KanColle Indonesia Patch Project'}}" />
   <meta property="og:image" content="https://terukaze1939.github.io/assets/imgs/banner.png" />
   
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://terukaze1939.github.io/" />
-  <meta property="twitter:title" content="KanColle Indonesia Patch" />
-  <meta property="twitter:description" content="KanColle Indonesia Patch Project" />
+  <meta property="twitter:title" content="{{ page.title | default: 'KanColle Indonesia Patch Project'}}" />
+  <meta property="twitter:description" content="{{ page.title | default: 'KanColle Indonesia Patch Project'}}" />
   <meta property="twitter:image" content="https://terukaze1939.github.io/assets/imgs/banner.png" />
   
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">

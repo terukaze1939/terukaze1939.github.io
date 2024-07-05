@@ -3,7 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>KanColle Indonesia Patch</title>
+  <title>
+    {% if page.layout == 'post' %}
+      {{ page.title }}
+    {% else %}
+      KanColle Indonesia Patch Project
+    {% endif %}
+  </title>
   <meta name="title" content="KanColle Indonesia Patch" />
   <meta name="description" content="KanColle Indonesia Patch Project" />
   

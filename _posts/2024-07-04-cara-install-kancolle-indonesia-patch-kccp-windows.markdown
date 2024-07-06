@@ -2,7 +2,7 @@
 layout: post
 title: "Cara Install KanColle Indonesia Patch ( KCCacheProxy ) WINDOWS"
 date: 2024-07-04 13:29:07 +0700
-categories: tutorial kancolle patch
+categories: tutorial
 ---
 
 Pada kesempatan kali ini saya akan membuat sebuah tutorial cara install `Patch Bahasa Indonesia` ke dalam game `Kantai Collection` menggunakan `KCCacheProxy` pada Windows.

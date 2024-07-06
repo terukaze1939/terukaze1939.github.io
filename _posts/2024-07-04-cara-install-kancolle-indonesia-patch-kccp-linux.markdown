@@ -2,7 +2,7 @@
 layout: post
 title: "Cara Install KanColle Indonesia Patch ( KCCacheProxy ) LINUX"
 date: 2024-07-04 12:29:07 +0700
-categories: tutorial
+categories: tutorial kancolle patch
 ---
 
 

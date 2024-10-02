@@ -3,6 +3,7 @@ layout: post
 title: "Cara Install KanColle Indonesia Patch ( KCCacheProxy ) LINUX"
 date: 2024-07-04 12:29:07 +0700
 categories: tutorial
+thumbnail: assets/imgs/cara_install_kancolle_indonesia_patch_kccp_linux/thumbnail.png
 ---
 
 
@@ -127,9 +128,10 @@ Setelah mengatur konfigurasi file `config.json`, hapus `Cache Gambar` pada brows
 
 
 ## GAMEPLAY
-![](/{{ 'assets/imgs/main.png' }})
+![](/{{ 'assets/imgs/cara_install_kancolle_indonesia_patch_kccp_linux/main.png' }})
 <br>
-![](/{{ 'assets/imgs/homeport.png' }})
+
+![](/{{ 'assets/imgs/cara_install_kancolle_indonesia_patch_kccp_linux/homeport.png' }})
 <br>
 
 ## Muncul Masalah ? 

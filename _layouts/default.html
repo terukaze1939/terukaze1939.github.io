@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "ID" }}">
-
+  {% if page.thumbnail %}
+    <meta property="og:image" content="{{ page.thumbnail | absolute_url }}"/>
+    <meta property="twitter:image" content="{{ page.thumbnail | absolute_url}}"/>
+  {% endif %}
   {%- include head.html -%}
   <link rel="stylesheet" href="{{'assets/css/main.css' | relative_url}}">
   <body class="bg-dark text-white">

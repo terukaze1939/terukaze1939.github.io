@@ -16,6 +16,9 @@ layout: default
       {%- for post in site.posts -%}
         <div class="col-lg-4 col-md-4 col-sm">
           <div class="card shadow bg-dark" style="min-height: 10rem;">
+            {% if post.thumbnail %}
+              <img src="{{ post.thumbnail | relative_url }} " class="card-img-top" alt="{{ post.title}}">
+            {% endif %}
             <div class="card-body">
               {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
               <span class="post-meta">

@@ -21,18 +21,20 @@
   {% else %}
   <meta property="og:image" content="https://terukaze1939.github.io/assets/imgs/banner.png" />
   {% endif %}
+  
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="{{ page.url | absolute_url }}" />
   <meta property="twitter:title" content="{{ page.title | default: 'KanColle Indonesia Patch Project'}}" />
   <meta property="twitter:description" content="{{ page.title | default: 'KanColle Indonesia Patch Project'}}" />
-
   {% if page.thumbnail %}
   <meta property="twitter:image" content="{{ page.thumbnail | absolute_url}}" />
   {% else %}
   <meta property="twitter:image" content="https://terukaze1939.github.io/assets/imgs/banner.png" />
   {% endif %}
-  <link rel="stylesheet" href="{{ " /assets/main.css" | relative_url }}">
+
+
+  <link rel="stylesheet" href="{{ "assets/main.css" | relative_url }}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">

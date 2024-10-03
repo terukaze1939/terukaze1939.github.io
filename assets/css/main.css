@@ -1,13 +1,17 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
 
-    a  {
-        color: #4cdbff !important;
-        
-    }
- 
+a {
+    color: #4cdbff !important;
 
-   pre{
+}
+
+
+pre {
     background-color: rgb(24, 24, 24) !important;
-   }
-   .language-json{
+}
+
+.language-json {
     background-color: rgb(24, 24, 24) !important;
-   }
+}

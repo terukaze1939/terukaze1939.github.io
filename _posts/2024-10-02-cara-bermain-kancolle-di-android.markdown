@@ -3,6 +3,7 @@ layout: post
 title: "Cara daftar dan main KanColle di Android"
 date: 2024-10-02 15:40:07 +0700
 categories: tutorial
+thumbnail: assets/imgs/cara_bermain_kancolle_di_android/thumbnail.jpg
 ---
 
 Pada tutorial kali ini, saya akan memberikan cara daftar dan install game KanColle di Android dengan langkah-langkah yang lengkap.
